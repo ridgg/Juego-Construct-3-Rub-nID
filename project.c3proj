@@ -131,14 +131,18 @@
 			"ColoqueWan",
 			"Intro",
 			"Puntos",
-			"Texto2",
+			"Puntación",
 			"Comprobador_man",
 			"Comprobador_pan",
 			"mannn",
 			"redwan",
 			"redpan",
 			"redaman",
-			"redlandeverdad"
+			"redlandeverdad",
+			"Sprite",
+			"Outro",
+			"Reiniciar",
+			"Siguiente"
 		],
 		"subfolders": []
 	},
@@ -151,14 +155,16 @@
 	"layouts": {
 		"items": [
 			"Menú inicio",
-			"Nivel 1"
+			"Nivel 1",
+			"Outro escene"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
 			"Hoja de eventos 1",
-			"Hoja de eventos 2"
+			"Hoja de eventos 2",
+			"Hoja de eventos 3"
 		],
 		"subfolders": []
 	},

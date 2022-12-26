@@ -40,37 +40,6 @@
 					}
 				},
 				{
-					"type": "Iniciar",
-					"properties": {
-						"type": "button",
-						"text": "JUGAR",
-						"tooltip": "",
-						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
-						"checked": false,
-						"id": "",
-						"class": ""
-					},
-					"uid": 2,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 308,
-						"y": 288,
-						"width": 255.1769,
-						"height": 29.961670999999967,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						]
-					}
-				},
-				{
 					"type": "Texto",
 					"properties": {
 						"text": "BIENVENIDO A ",
@@ -467,6 +436,37 @@
 						],
 						"angle": 0,
 						"zElevation": 0
+					}
+				},
+				{
+					"type": "Iniciar",
+					"properties": {
+						"type": "button",
+						"text": "JUGAR",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": "",
+						"class": ""
+					},
+					"uid": 2,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 308,
+						"y": 288,
+						"width": 255.1769,
+						"height": 29.961670999999967,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
 					}
 				}
 			],
