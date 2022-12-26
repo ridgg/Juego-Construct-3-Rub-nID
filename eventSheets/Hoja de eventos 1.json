@@ -1,0 +1,105 @@
+{
+	"name": "Hoja de eventos 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 492422667179945
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Texto",
+					"sid": 940775778057998,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Iniciar",
+					"sid": 445874118118141,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Iniciar",
+					"sid": 274292368212027,
+					"parameters": {
+						"mode": "enabled"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Iniciar",
+					"sid": 622438191550073,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 209529487157484
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "repeat",
+					"objectClass": "System",
+					"sid": 360818761806436,
+					"parameters": {
+						"count": "10"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Texto",
+					"sid": 442596838506037,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-world-gravity",
+					"objectClass": "Forma3D",
+					"sid": 610296855099700,
+					"behaviorType": "Físicas",
+					"parameters": {
+						"gravity": "10"
+					}
+				}
+			],
+			"sid": 261058072724069
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Iniciar",
+					"sid": 348413534480175
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 886509846378625,
+					"parameters": {
+						"layout": "Nivel 1"
+					}
+				}
+			],
+			"sid": 666817714571039
+		}
+	],
+	"sid": 655764154480794
+}

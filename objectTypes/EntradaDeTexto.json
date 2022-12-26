@@ -1,0 +1,19 @@
+{
+	"name": "EntradaDeTexto",
+	"plugin-id": "TextBox",
+	"sid": 191591093987134,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Persist",
+			"name": "Persistencia",
+			"sid": 669862803837213
+		},
+		{
+			"behaviorId": "TileMovement",
+			"name": "MovimientoEnCuadrícula",
+			"sid": 173414346659796
+		}
+	]
+}

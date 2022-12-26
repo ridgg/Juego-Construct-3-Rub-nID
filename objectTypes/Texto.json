@@ -1,0 +1,20 @@
+{
+	"name": "Texto",
+	"plugin-id": "Text",
+	"sid": 970922863395296,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "TileMovement",
+			"name": "MovimientoEnCuadrícula",
+			"sid": 362836959084191
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "warplayout",
+			"name": "CapaDeTrasformación"
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"name": "redwan",
+	"plugin-id": "Text",
+	"sid": 706790367222564,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "ArrastrarYSoltar",
+			"sid": 802559307114792
+		}
+	],
+	"effectTypes": []
+}
