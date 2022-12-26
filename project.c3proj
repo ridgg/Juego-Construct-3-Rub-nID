@@ -95,6 +95,14 @@
 			"bundled": false
 		},
 		{
+			"type": "behavior",
+			"id": "Pin",
+			"name": "Pegado",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
 			"type": "effect",
 			"id": "warplayout",
 			"name": "Capa de trasformación",
@@ -117,14 +125,20 @@
 			"lan",
 			"man",
 			"wan",
-			"redPan",
-			"redlan",
-			"redman",
-			"redwan",
 			"ColoqueMan",
 			"ColoqueLan",
 			"ColoquePAn",
-			"ColoqueWan"
+			"ColoqueWan",
+			"Intro",
+			"Puntos",
+			"Texto2",
+			"Comprobador_man",
+			"Comprobador_pan",
+			"mannn",
+			"redwan",
+			"redpan",
+			"redaman",
+			"redlandeverdad"
 		],
 		"subfolders": []
 	},

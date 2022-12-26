@@ -1,19 +1,19 @@
 {
-	"name": "redwan",
+	"name": "redpan",
 	"plugin-id": "Sprite",
-	"sid": 709524434656786,
+	"sid": 598218329534534,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "DragnDrop",
 			"name": "ArrastrarYSoltar",
-			"sid": 831081502452354
+			"sid": 113284785624099
 		},
 		{
 			"behaviorId": "Pin",
 			"name": "Pegado",
-			"sid": 394420635524656
+			"sid": 350702432625342
 		}
 	],
 	"effectTypes": [],
@@ -22,30 +22,30 @@
 			{
 				"frames": [
 					{
-						"width": 400,
-						"height": 31,
+						"width": 421,
+						"height": 33,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8435732,
+						"imageSpriteId": 1092831,
 						"collisionPoly": {
 							"points": [
 								0,
 								0,
 								0.5,
 								0,
-								0.9975,
+								0.997624703087886,
 								0,
-								0.9975,
+								0.997624703087886,
 								0.5,
-								0.9975,
-								0.967741935483871,
+								0.997624703087886,
+								0.9696969696969697,
 								0.5,
-								0.967741935483871,
+								0.9696969696969697,
 								0,
-								0.967741935483871,
+								0.9696969696969697,
 								0,
 								0.5
 							]
@@ -54,7 +54,7 @@
 						"duration": 1
 					}
 				],
-				"sid": 760416079929392,
+				"sid": 319953192471904,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
