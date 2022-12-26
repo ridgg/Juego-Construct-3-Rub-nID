@@ -1,0 +1,15 @@
+{
+	"name": "redlan",
+	"plugin-id": "Text",
+	"sid": 288296668952753,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "ArrastrarYSoltar",
+			"sid": 574490744481204
+		}
+	],
+	"effectTypes": []
+}

@@ -1,0 +1,15 @@
+{
+	"name": "redman",
+	"plugin-id": "Text",
+	"sid": 741818236580544,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "ArrastrarYSoltar",
+			"sid": 944409911702994
+		}
+	],
+	"effectTypes": []
+}

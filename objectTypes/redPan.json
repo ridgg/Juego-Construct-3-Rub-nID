@@ -1,0 +1,15 @@
+{
+	"name": "redPan",
+	"plugin-id": "Text",
+	"sid": 544514930194504,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "ArrastrarYSoltar",
+			"sid": 568480452970950
+		}
+	],
+	"effectTypes": []
+}
