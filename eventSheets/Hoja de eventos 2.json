@@ -1,5 +1,332 @@
 {
 	"name": "Hoja de eventos 2",
-	"events": [],
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "Aciertos",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 542280537456618
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 910810904155053
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "redaman",
+					"sid": 173915222783934,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "redlandeverdad",
+					"sid": 509130204504820,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "redpan",
+					"sid": 137809992066496,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "redwan",
+					"sid": 626591377123594,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Siguiente",
+					"sid": 851944103401975,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 556016394267407
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 534400164021681
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "Puntación",
+					"sid": 683316700456482,
+					"parameters": {
+						"text": "Aciertos"
+					}
+				}
+			],
+			"sid": 444075673542139
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 239404534576062,
+					"parameters": {
+						"variable": "Aciertos",
+						"comparison": 0,
+						"value": "4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Siguiente",
+					"sid": 918390158066041,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 809938267311303
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "redwan",
+					"sid": 556057935359525,
+					"parameters": {
+						"object": "ColoqueWan"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-imagepoint",
+					"objectClass": "redwan",
+					"sid": 676241219175585,
+					"behaviorType": "Pegado",
+					"parameters": {
+						"pin-to": "ColoqueWan",
+						"image-point": "1",
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 763487057350386,
+					"parameters": {
+						"variable": "Aciertos",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "ColoqueWan",
+					"sid": 262294161518287,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 693440015915677
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "redaman",
+					"sid": 805291487648731,
+					"parameters": {
+						"object": "mannn"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "redaman",
+					"sid": 322861145341561,
+					"behaviorType": "Pegado",
+					"parameters": {
+						"pin-to": "mannn",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 436255671844167,
+					"parameters": {
+						"variable": "Aciertos",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "ColoqueMan",
+					"sid": 269485706747807,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 160011714374727
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "redpan",
+					"sid": 165978251719733,
+					"parameters": {
+						"object": "ColoquePAn"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "redpan",
+					"sid": 494931514332405,
+					"behaviorType": "Pegado",
+					"parameters": {
+						"pin-to": "ColoqueLan",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 665605608045392,
+					"parameters": {
+						"variable": "Aciertos",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "ColoquePAn",
+					"sid": 637895030492147,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 713482258960800
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "redlandeverdad",
+					"sid": 713808546419113,
+					"parameters": {
+						"object": "ColoqueLan"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "redlandeverdad",
+					"sid": 525192802498209,
+					"behaviorType": "Pegado",
+					"parameters": {
+						"pin-to": "ColoqueLan",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 363388580791708,
+					"parameters": {
+						"variable": "Aciertos",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "ColoqueLan",
+					"sid": 331659473484049,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 341785495014091
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Siguiente",
+					"sid": 919667946563613
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 788494622464653,
+					"parameters": {
+						"layout": "Outro escene"
+					}
+				}
+			],
+			"sid": 830553620346558
+		}
+	],
 	"sid": 330837498039578
 }
