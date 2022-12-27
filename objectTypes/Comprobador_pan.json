@@ -1,7 +1,7 @@
 {
-	"name": "Pan",
+	"name": "Comprobador_pan",
 	"plugin-id": "Sprite",
-	"sid": 298493543635990,
+	"sid": 976786115381012,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,39 +11,19 @@
 			{
 				"frames": [
 					{
-						"width": 322,
-						"height": 232,
+						"width": 250,
+						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7369657,
-						"collisionPoly": {
-							"points": [
-								0,
-								0,
-								0.5,
-								0,
-								0.9968944099378882,
-								0,
-								0.9968944099378882,
-								0.5,
-								0.9968944099378882,
-								0.9956896551724138,
-								0.5,
-								0.9956896551724138,
-								0,
-								0.9956896551724138,
-								0,
-								0.5
-							]
-						},
+						"imageSpriteId": 5316696,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 651735880934130,
+				"sid": 814857923547892,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

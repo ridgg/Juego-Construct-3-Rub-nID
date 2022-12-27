@@ -1,7 +1,7 @@
 {
-	"name": "Pan",
+	"name": "mannn",
 	"plugin-id": "Sprite",
-	"sid": 298493543635990,
+	"sid": 921703606324997,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,39 +11,39 @@
 			{
 				"frames": [
 					{
-						"width": 322,
-						"height": 232,
+						"width": 269,
+						"height": 45,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7369657,
+						"imageSpriteId": 7043031,
 						"collisionPoly": {
 							"points": [
 								0,
 								0,
 								0.5,
 								0,
-								0.9968944099378882,
-								0,
-								0.9968944099378882,
+								0.9581784386617099,
+								0.26111111111111107,
+								0.9962825278810409,
 								0.5,
-								0.9968944099378882,
-								0.9956896551724138,
+								0.9962825278810409,
+								0.9777777777777777,
 								0.5,
-								0.9956896551724138,
-								0,
-								0.9956896551724138,
-								0,
-								0.5
+								0.9777777777777777,
+								0.3513011152416356,
+								1,
+								0.030669144981412728,
+								0.8611111111111112
 							]
 						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 651735880934130,
+				"sid": 214520665309908,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

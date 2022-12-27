@@ -1,0 +1,48 @@
+{
+	"name": "Hoja de eventos 3",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 823207621606867
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "Reiniciar",
+					"sid": 639008206597432,
+					"parameters": {
+						"mode": "enabled"
+					}
+				}
+			],
+			"sid": 335297274583165
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Reiniciar",
+					"sid": 737655791702434
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 834105126200288,
+					"parameters": {
+						"layout": "Menú inicio"
+					}
+				}
+			],
+			"sid": 121090030508990
+		}
+	],
+	"sid": 477121347148547
+}

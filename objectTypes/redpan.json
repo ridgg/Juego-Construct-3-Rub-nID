@@ -1,40 +1,51 @@
 {
-	"name": "Pan",
+	"name": "redpan",
 	"plugin-id": "Sprite",
-	"sid": 298493543635990,
+	"sid": 598218329534534,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "ArrastrarYSoltar",
+			"sid": 113284785624099
+		},
+		{
+			"behaviorId": "Pin",
+			"name": "Pegado",
+			"sid": 350702432625342
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 322,
-						"height": 232,
+						"width": 421,
+						"height": 33,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7369657,
+						"imageSpriteId": 1092831,
 						"collisionPoly": {
 							"points": [
 								0,
 								0,
 								0.5,
 								0,
-								0.9968944099378882,
+								0.997624703087886,
 								0,
-								0.9968944099378882,
+								0.997624703087886,
 								0.5,
-								0.9968944099378882,
-								0.9956896551724138,
+								0.997624703087886,
+								0.9696969696969697,
 								0.5,
-								0.9956896551724138,
+								0.9696969696969697,
 								0,
-								0.9956896551724138,
+								0.9696969696969697,
 								0,
 								0.5
 							]
@@ -43,7 +54,7 @@
 						"duration": 1
 					}
 				],
-				"sid": 651735880934130,
+				"sid": 319953192471904,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

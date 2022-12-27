@@ -1,15 +1,68 @@
 {
 	"name": "redwan",
-	"plugin-id": "Text",
-	"sid": 706790367222564,
+	"plugin-id": "Sprite",
+	"sid": 709524434656786,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "DragnDrop",
 			"name": "ArrastrarYSoltar",
-			"sid": 802559307114792
+			"sid": 831081502452354
+		},
+		{
+			"behaviorId": "Pin",
+			"name": "Pegado",
+			"sid": 394420635524656
 		}
 	],
-	"effectTypes": []
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 400,
+						"height": 31,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8435732,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9975,
+								0,
+								0.9975,
+								0.5,
+								0.9975,
+								0.967741935483871,
+								0.5,
+								0.967741935483871,
+								0,
+								0.967741935483871,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 760416079929392,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
 }

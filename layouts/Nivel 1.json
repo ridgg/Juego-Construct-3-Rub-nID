@@ -50,17 +50,10 @@
 					},
 					"uid": 13,
 					"instanceVariables": {},
-					"behaviors": {
-						"ArrastrarYSoltar": {
-							"properties": {
-								"axes": "both",
-								"enabled": true
-							}
-						}
-					},
+					"behaviors": {},
 					"world": {
-						"x": 159.12366753742586,
-						"y": 117.99213174882996,
+						"x": 445.712213406911,
+						"y": 360.55171107412053,
 						"width": 151.66010750857248,
 						"height": 109.27063646580376,
 						"originX": 0.5,
@@ -86,17 +79,10 @@
 					},
 					"uid": 14,
 					"instanceVariables": {},
-					"behaviors": {
-						"ArrastrarYSoltar": {
-							"properties": {
-								"axes": "both",
-								"enabled": true
-							}
-						}
-					},
+					"behaviors": {},
 					"world": {
-						"x": 156.65261719450706,
-						"y": 238.49496032711588,
+						"x": 708.2154889936,
+						"y": 362.5765933153007,
 						"width": 148.60040602407435,
 						"height": 93.91708287704834,
 						"originX": 0.5,
@@ -122,17 +108,10 @@
 					},
 					"uid": 15,
 					"instanceVariables": {},
-					"behaviors": {
-						"ArrastrarYSoltar": {
-							"properties": {
-								"axes": "both",
-								"enabled": true
-							}
-						}
-					},
+					"behaviors": {},
 					"world": {
 						"x": 160.91093734464567,
-						"y": 351.3809257430411,
+						"y": 358.58566572300026,
 						"width": 168.96249892663565,
 						"height": 102.78134207703354,
 						"originX": 0.5,
@@ -158,17 +137,10 @@
 					},
 					"uid": 16,
 					"instanceVariables": {},
-					"behaviors": {
-						"ArrastrarYSoltar": {
-							"properties": {
-								"axes": "both",
-								"enabled": true
-							}
-						}
-					},
+					"behaviors": {},
 					"world": {
-						"x": 710.0452994523871,
-						"y": 116.25220353347993,
+						"x": 719.651619425666,
+						"y": 201.10802996410962,
 						"width": 178.75901733202528,
 						"height": 101.89558483835378,
 						"originX": 0.5,
@@ -184,15 +156,267 @@
 					}
 				},
 				{
-					"type": "redPan",
+					"type": "ColoqueMan",
 					"properties": {
-						"text": "Red PAN (Red de Área Personal)",
+						"text": "Coloque aquí.",
 						"enable-bbcode": true,
 						"font": "fantasy",
 						"size": 12,
 						"line-height": 0,
 						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "center"
+					},
+					"uid": 22,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 164.34685485319147,
+						"y": 295.64225613247197,
+						"width": 89.52732030729334,
+						"height": 19.59315336228127,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "ColoqueLan",
+					"properties": {
+						"text": "Coloque aquí.",
+						"enable-bbcode": true,
+						"font": "fantasy",
+						"size": 12,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "center"
+					},
+					"uid": 21,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 709.2277266579604,
+						"y": 299.67800793777246,
+						"width": 92.72942696505311,
+						"height": 19.593153362281328,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "ColoquePAn",
+					"properties": {
+						"text": "Coloque aquí.",
+						"enable-bbcode": true,
+						"font": "fantasy",
+						"size": 12,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "center"
+					},
+					"uid": 23,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 448.91760618470704,
+						"y": 295.2584846711386,
+						"width": 92.72942696505311,
+						"height": 17.992100033401414,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "ColoqueWan",
+					"properties": {
+						"text": "Coloque aquí.",
+						"enable-bbcode": true,
+						"font": "fantasy",
+						"size": 12,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "center"
+					},
+					"uid": 24,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 717.9352863804265,
+						"y": 137.7266846574703,
+						"width": 91.12837363617325,
+						"height": 17.99210003340147,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Intro",
+					"properties": {
+						"text": "Relaciona el nombre con su imagen.",
+						"enable-bbcode": true,
+						"font": "fantasy",
+						"size": 24,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 25,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 207.69483346513016,
+						"y": 37.18140923325333,
+						"width": 525.8143524270404,
+						"height": 30,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Puntos",
+					"properties": {
+						"text": "Puntuación:",
+						"enable-bbcode": true,
+						"font": "serif",
+						"size": 21,
+						"line-height": 0,
+						"bold": true,
 						"italic": true,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 26,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 12.365322176342971,
+						"y": 31.63375937082148,
+						"width": 147.16524014696643,
+						"height": 30,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Puntación",
+					"properties": {
+						"text": "Texto",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 16,
+						"line-height": 0,
+						"bold": true,
+						"italic": false,
 						"color": [
 							0,
 							0,
@@ -204,6 +428,163 @@
 						"wrapping": "word",
 						"initially-visible": true,
 						"origin": "top-left"
+					},
+					"uid": 27,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 160.4627542804978,
+						"y": 37.653975333007736,
+						"width": 71.91573368961554,
+						"height": 30,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Comprobador_man",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 28,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 167.05374920378947,
+						"y": 289.1616514512508,
+						"width": 11.364533873087503,
+						"height": 11.364533873087503,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							0
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Comprobador_pan",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 29,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 451.56964723722444,
+						"y": 289.632411437722,
+						"width": 11.465839289272125,
+						"height": 11.465839289272125,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							0
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "mannn",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 30,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 162.227414351599,
+						"y": 302.8760219268335,
+						"width": 66.88799569499739,
+						"height": 10.90386919244878,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							0.01
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "redwan",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 31,
+					"instanceVariables": {},
+					"behaviors": {
+						"ArrastrarYSoltar": {
+							"properties": {
+								"axes": "both",
+								"enabled": true
+							}
+						},
+						"Pegado": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 188.29045160045203,
+						"y": 107.92719342290421,
+						"width": 219.67714394895472,
+						"height": 17.02497865604399,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "redpan",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
 					},
 					"uid": 17,
 					"instanceVariables": {},
@@ -213,15 +594,20 @@
 								"axes": "both",
 								"enabled": true
 							}
+						},
+						"Pegado": {
+							"properties": {
+								"destroy": false
+							}
 						}
 					},
 					"world": {
-						"x": 603.9550415520872,
-						"y": 181.57656319437825,
-						"width": 238.42527989311532,
-						"height": 30,
-						"originX": 0,
-						"originY": 0,
+						"x": 441.9826086754727,
+						"y": 164.14695169625975,
+						"width": 213.6177580406603,
+						"height": 16.744384834541066,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -233,26 +619,13 @@
 					}
 				},
 				{
-					"type": "redlan",
+					"type": "redlandeverdad",
 					"properties": {
-						"text": "Red LAN (Red de Área Local)",
-						"enable-bbcode": true,
-						"font": "fantasy",
-						"size": 12,
-						"line-height": 0,
-						"bold": false,
-						"italic": true,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "top-left"
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
 					},
 					"uid": 18,
 					"instanceVariables": {},
@@ -262,15 +635,20 @@
 								"axes": "both",
 								"enabled": true
 							}
+						},
+						"Pegado": {
+							"properties": {
+								"destroy": false
+							}
 						}
 					},
 					"world": {
-						"x": 605.5561143154009,
-						"y": 215.1996367809934,
-						"width": 215.21000662435813,
-						"height": 30,
-						"originX": 0,
-						"originY": 0,
+						"x": 447.2522219407216,
+						"y": 108.78867007695536,
+						"width": 229.74048141490445,
+						"height": 19.093712932606,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -282,26 +660,13 @@
 					}
 				},
 				{
-					"type": "redman",
+					"type": "redaman",
 					"properties": {
-						"text": "Red MAN (Red de Área Metropolitana)",
-						"enable-bbcode": true,
-						"font": "fantasy",
-						"size": 12,
-						"line-height": 0,
-						"bold": false,
-						"italic": true,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "top-left"
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
 					},
 					"uid": 19,
 					"instanceVariables": {},
@@ -311,15 +676,20 @@
 								"axes": "both",
 								"enabled": true
 							}
+						},
+						"Pegado": {
+							"properties": {
+								"destroy": false
+							}
 						}
 					},
 					"world": {
-						"x": 593.5482401420358,
-						"y": 256.02647187044045,
-						"width": 277.6510864506705,
-						"height": 30,
-						"originX": 0,
-						"originY": 0,
+						"x": 186.19932613784647,
+						"y": 166.02210015189166,
+						"width": 259.20916054852614,
+						"height": 16.16797580886179,
+						"originX": 0.4909456740442656,
+						"originY": 0.5806451612903226,
 						"color": [
 							1,
 							1,
@@ -331,42 +701,26 @@
 					}
 				},
 				{
-					"type": "redwan",
+					"type": "Siguiente",
 					"properties": {
-						"text": "Red WAN (Red de Área Amplia)",
-						"enable-bbcode": true,
-						"font": "fantasy",
-						"size": 12,
-						"line-height": 0,
-						"bold": false,
-						"italic": true,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
+						"type": "button",
+						"text": "SIGUIENTE",
+						"tooltip": "",
 						"initially-visible": true,
-						"origin": "top-left"
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": "",
+						"class": ""
 					},
-					"uid": 20,
+					"uid": 34,
 					"instanceVariables": {},
-					"behaviors": {
-						"ArrastrarYSoltar": {
-							"properties": {
-								"axes": "both",
-								"enabled": true
-							}
-						}
-					},
+					"behaviors": {},
 					"world": {
-						"x": 600.7530314282882,
-						"y": 300.8556341100607,
-						"width": 232.8215932420361,
-						"height": 30,
+						"x": 371.98141868235547,
+						"y": 222.62298762258848,
+						"width": 130.88171333483587,
+						"height": 24,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -374,9 +728,7 @@
 							1,
 							1,
 							1
-						],
-						"angle": 0,
-						"zElevation": 0
+						]
 					}
 				}
 			],
